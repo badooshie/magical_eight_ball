@@ -24,6 +24,14 @@ class Eightball:
         self.randAns = randAns
         self.searchRes = searchRes
 
+    # magic eight ball answer list:
+    def answers(randNum):
+    return {
+        1 : 'It is certain',
+        2 : 'My sources say no',
+        3 : 'Reply Hazy, Try Again'
+    }[randNum]
+
 
 def main():
     """Looping eightball question"""
